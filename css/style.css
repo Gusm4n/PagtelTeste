@@ -334,6 +334,7 @@ img {
      
     .navegacao {
         flex-direction: column;
+        padding: 20px;
     }
 
     .ulNavegacao {
