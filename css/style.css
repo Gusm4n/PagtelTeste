@@ -1,0 +1,461 @@
+/* Reset da página */
+
+body {
+    background: linear-gradient(0deg, #6D5291, #2A537B 80%);
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body, p, h1, ul, li, blockquote {
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Fim do reset */
+
+.container {
+    max-width: 1136px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Header */
+
+.header {
+    width: 100%;
+    background: #2A6D90 0% 0% no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Navegação */
+.navegacao {
+    max-width: 1132px;
+    width: 100%;    
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 30px 30px 30px 60px;
+}
+
+/* Logo */
+.header .navegacao .logo {
+    width: 175px;
+    height: 58px;
+    background-color: #FF5B1A;
+    border: 3px solid #FFFFFF;
+}
+
+/* Itens navegação */
+
+.menuNavegacao .ulNavegacao {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.header .navegacao .menuNavegacao .ulNavegacao .itensMenu {
+    width: 100px;
+    height: 30px;
+    background: #95C3DB 0% 0% no-repeat padding-box;
+    border-radius: 15px;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+.itensMenu {
+    margin-left: 20px;
+}
+
+/* Main */
+
+.container .mainContainer {
+    display: flex;
+    margin: 20px 0;
+}
+
+/* Área azul */
+
+.mainContainer .blocoAzul {
+    max-width: 65%; 
+    width: 100%;
+    /* height: 954px; */
+    background: #476592 0% 0% no-repeat padding-box;
+    margin-right: 10px;
+}
+
+.titulo {
+    line-height: 50px;
+    color: #FFFFFF;
+}
+
+.descricaoTitulo {
+    color: #FFFFFF;
+    line-height: 24px;
+}
+
+.mainContainer .blocoAzul .conteudoAzul {
+    padding: 70px 60px;
+}
+
+/* Imagens Circulares */
+
+.circulosUl {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+
+.imagensCirculares {
+    width: 97px;
+    height: 97px;
+    background: #EFEFEF 0% 0% no-repeat padding-box;
+    border: 3px solid #FFFFFF;
+    border-radius: 49px;
+}
+
+/*Área do Card branco */
+
+.subtituloCard {
+    color: #FFFFFF;
+    text-align: right;
+    line-height: 31px;
+}
+
+.descricaoCard {
+    text-align: right;
+    color: #FFFFFF;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+.textoImagem {
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+.textoImagem .areaTexto {
+    width: 55%;
+    margin-top: 80px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.textoImagem .areaImagem {
+    width: 45%;
+
+}
+
+.textoImagem .areaImagem .cardBranco  {
+        width: 100%;
+        height: 466px;
+        background: #EFEFEF 0% 0% no-repeat padding-box;
+        border: 3px solid #FFFFFF;
+        border-radius: 20px;
+}
+
+.botaoCard {
+    width: 203px;
+    height: 59px;
+    background: #95C3DB 0% 0% no-repeat padding-box;
+    border-radius: 30px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Área roxa */
+
+.mainContainer .blocoRoxo {
+    max-width: 35%;
+    width: 100%;
+    height: 954px;
+    background: #6D5291 0% 0% no-repeat padding-box;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.blocoRoxo .conteudoRoxo .sideMenu {
+        display: flex;
+        margin: 0;
+        flex-direction: column;
+        padding: 30px 30px;
+}
+
+.conteudoRoxo .sideMenu .containerImagem {
+    background: white;
+    width: 100%;
+    height: 132px;
+    margin-bottom: 32px;
+}
+
+.conteudoRoxo .sideMenu .imagemDescricao {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 24px;
+    margin-bottom: 48px;
+}
+
+/* Área de Contatos */
+
+.areaContato {
+    background-color: #F4F4F4;
+    max-width: 1136px;
+    height: 436px;
+    margin: 0 auto;
+    padding: 70px 50px;
+}
+ 
+ .areaContato .botaoRoxo {    
+    width: 203px;
+    height: 59px;
+    margin-top: 30px;
+    border-radius: 30px;
+    opacity: 1;
+    border: none;
+    font: normal normal bold 20px/24px Arial;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+     background-color: #6D5291;
+ }
+
+ .areaContato .formularios {
+     display: flex;
+     justify-content: flex-end;
+ }
+/* Formulários */
+
+.containerForm {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+  .formularios {
+      max-width: 1136px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+
+
+.label-float{
+    position: relative;
+    padding-top: 13px;
+    display: flex;
+    width: 50%;
+    padding: 10px;
+  }
+  
+  .label-float input{
+    background: #F4F4F4 0% 0% no-repeat padding-box;
+    border: 1px solid #000000;
+    border-radius: 62px;
+    outline: none;
+    width: 100%;
+    height: 52px;
+  }
+
+  
+  .label-float input::placeholder{
+    color:transparent;
+  }
+  
+  .label-float label{
+    pointer-events: none;
+    position: absolute;
+    left: 35px;
+    top: 3px;
+    background: #F4F4F4;
+    padding: 2px 8px 2px 8px;
+    font-family: arial;
+  }
+
+/* Footer */
+
+.footerInfo  {
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+ }
+
+ .footerInfo p {
+     margin: 0 auto;
+     font-family: Arial, Helvetica, sans-serif;
+     color: white;
+ }
+
+ .linksInfo a {
+    color: white;
+    text-align: center;
+ }
+ .footerInfo p:first-child{
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: bold;
+     margin-bottom: 20px;
+     text-align: center;
+ }
+ 
+ .footerInfo p {
+    text-align: center;
+ }
+ 
+
+ /* Media Query */
+
+ @media (max-width: 1023px) {
+     
+    .navegacao {
+        flex-direction: column;
+    }
+
+    .ulNavegacao {
+        padding: 5px;
+    }
+
+    .mainContainer {
+        flex-direction: column;
+        text-align: center;
+     }
+
+     .mainContainer .blocoAzul {
+         max-width: 100%;
+         justify-content: center;
+     }
+
+     .mainContainer .blocoRoxo {
+         max-width: 100%;
+         height: auto;
+         flex-direction: row;
+         margin: 0;
+     }
+
+
+     .blocoRoxo .conteudoRoxo .sideMenu {
+         flex-direction: row;
+     }
+     
+     .sideMenuLi {
+         margin: 10px;
+     }
+ }
+
+ @media (max-width: 767px) {
+
+    .circulosUl {
+         padding: 5px;
+     }
+
+     .mainContainer .blocoAzul .conteudoAzul {
+         flex-direction: column;
+         padding: 15px;
+     }
+
+     .blocoRoxo .conteudoRoxo .sideMenu {
+         flex-direction: column;
+         height: 100%;
+     }
+     
+     .areaContato {
+        padding: 20px;
+        height: auto;
+    }
+
+    .areaContato .formularios {
+        justify-content: center;
+        margin: 0 auto;
+        max-width: 500px;
+    }
+
+     .label-float {
+         width: 100%;
+     }
+
+     .contatoTitulo {
+         text-align: center;
+     }
+
+     .areaContato .botaoRoxo {
+         margin: 30px 0;
+     }
+
+     .footerInfo {
+         height: auto;
+     }
+ }
+
+ @media (max-width: 426px){
+     .textoImagem {
+         width: 100%;
+         margin: 0;
+         padding: 0;
+         flex-direction: column;
+         align-items: center;
+         text-align: center;
+     }
+
+     .descricaoCard {
+         text-align: center;
+     }
+
+     .circulosUl {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 15px;
+    }
+
+     .gridCirculo {
+         margin: 0 auto;
+         padding: 15px;
+     }
+
+    .textoImagem .areaImagem .cardBranco {
+        margin-bottom: 20px;
+    }
+     .textoImagem .areaTexto {
+         align-items: center;
+         padding-right: 0;
+         width: 100%;
+     }
+
+     .textoImagem .areaImagem {
+         width: 80%;
+     }
+
+     .areaContato {
+         text-align: center;
+     }
+
+     .botaoCard {
+         margin-bottom: 20px;
+     }
+
+ }
+
